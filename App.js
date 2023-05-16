@@ -1,9 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 import MainScreen from './screens/MainScreen';
 
 const App = () => {
     return (
-        <MainScreen/>
+        <>
+            <StatusBar style='light'/>
+            <MainScreen/>
+        </>
     )
 }
 
